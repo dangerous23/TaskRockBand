@@ -11,18 +11,18 @@
     <script type="module" src="./main.js"></script>
   </head>
   <body>
-       <div class="mobile-menu">
-          <div class="open-modal-content">
-            <nav class="nav" id="nav">
-              <a href="#about">Про гурт</a>
-              <a href="#concerts">Концерти</a>
-              <a href="#gallery">Галерея</a>
-              <a href="#contact">Контакти</a>
-              <button id="closeMenu">Закрити</button>
-            </nav>
-          </div>
-        </div>
+    <div class="mobile-menu">
+      <div class="open-modal-content">
+        <nav class="nav" id="nav">
+          <a href="#about">Про гурт</a>
+          <a href="#concerts">Концерти</a>
+          <a href="#gallery">Галерея</a>
+          <a href="#contact">Контакти</a>
+          <button id="closeMenu">Закрити</button>
+        </nav>
       </div>
+    </div>
+
     <!---------------------------------HEDER------------------------------------>
     <header>
       <div class="container menu">
@@ -52,7 +52,7 @@
             <use href="./imj/burger-menu.svg"></use>
           </svg>
         </button>
-     
+      </div>
     </header>
     <!---------------------------------HERO------------------------------------>
     <section class="hero hero-shadow">
@@ -144,21 +144,29 @@
         <div class="card">
           <img
             loading="lazy"
-            src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=600"
+            src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=720&q=70&fm=webp"
+            alt="Максим — гітара"
           />
           <p>Максим — гітара</p>
         </div>
         <div class="card">
           <img
             loading="lazy"
-            src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=600"
+            src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=720&q=70&fm=webp"
+            alt="Олена — вокал"
           />
           <p>Олена — вокал</p>
         </div>
         <div class="card">
           <img
             loading="lazy"
-            src="https://images.unsplash.com/photo-1507878866276-a947ef722fee?q=80&w=600"
+            src="https://images.unsplash.com/photo-1507878866276-a947ef722fee?w=720&q=70&fm=webp"
+             srcset="
+           https://images.unsplash.com/photo-1507878866276-a947ef722fee?w=480&q=70&fm=webp   480w,
+            https://images.unsplash.com/photo-1507878866276-a947ef722fee?w=720&q=70&fm=webp   720w,
+            https://images.unsplash.com/photo-1507878866276-a947ef722fee?w=1024&q=70&fm=webp 1024w
+          "
+            alt="Тарас — барабани"
           />
           <p>Тарас — барабани</p>
         </div>
@@ -201,7 +209,13 @@
       <div class="history-img">
         <img
           loading="lazy"
-          src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?q=80&w=800"
+          src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=720&q=70&fm=webp"
+          srcset="
+            https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=480&q=70&fm=webp   480w,
+            https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=720&q=70&fm=webp   720w,
+            https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=1024&q=70&fm=webp 1024w
+          "
+          alt="фотокартка з історією групи"
         />
       </div>
     </section>
@@ -238,7 +252,9 @@
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+              title="Карта з місцезнаходженням гурту"
+            >
+            </iframe>
           </div>
         </div>
       </div>
